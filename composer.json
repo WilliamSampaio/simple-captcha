@@ -1,0 +1,21 @@
+{
+    "name": "williamsampaio/simple-captcha",
+    "description": "Simple class that implement a CAPTCHA for your PHP App",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/WilliamSampaio/simple-captcha",
+    "authors": [
+        {
+            "name": "William Sampaio",
+            "email": "williambenjamimms97@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WilliamSampaio\\SimpleCaptcha\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    }
+}
