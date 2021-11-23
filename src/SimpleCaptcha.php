@@ -22,7 +22,7 @@ class SimpleCaptcha
             $this->key = substr($this->key, 0, 16);
             $count_max = strlen($this->key) - 5;
             for ($i = 0; $i < $count_max; $i++) {
-                $this->width += 9;
+                $width += 9;
             }
         }
 
